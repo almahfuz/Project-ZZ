@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+}
+
+.nav-link.active {
+  background-color: #ffb643 !important;
+}
+
+.jumbotron {
+  padding: 20px 0px 0px 0px;
+  background-color: #ffb643;
+  border-radius: 0;
+}
+
+.jumbotron .header {
+  padding-left: 15px;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.jumbotron .header a {
+  text-decoration: none;
+  color: black !important;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+.jumbotron .header a:hover {
+  color: white !important;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+.jumbotron nav {
+  background-color: #cea15a !important;
+  padding: 0 15px;
+}
+
+.jumbotron nav .nav-link {
+  color: black !important;
+  padding: 15px 20px !important;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+.jumbotron nav .nav-link:hover {
+  background-color: #ffb643;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.jumbotron nav .nav-opt {
+  margin-left: auto;
+}
+
+.card-login {
+  -webkit-transform: translateY(25%);
+          transform: translateY(25%);
+}
+
+.card-login .card-header {
+  background-color: #fff4e2 !important;
+  font-size: 20px;
+}
+
+.card-login .card-body .custom-btn {
+  color: black;
+  background-color: #ffb643;
+  border-color: #cea15a;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+.card-login .card-body .custom-btn:hover {
+  background-color: #ffce1dd1;
+  border-color: #cea15a;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+.theader {
+  background-color: #fff4e2 !important;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
